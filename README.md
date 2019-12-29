@@ -1,5 +1,7 @@
 Ergonomic gamepad to play Touhou Project games. Left-hand controls shoot/slow/bomb, and right hand controls movement. The bomb button is supposed to be pressed with the left thumb.
 
+![Rendering](https://raw.githubusercontent.com/Pimentoso/TouhouPad/master/images/screen.png)
+
 ## Materials needed
 
 - 9 mechanical switches
@@ -33,6 +35,8 @@ Default pins used:
 ## Firmware
 
 You can load the touhoupad.json file into https://kbfirmware.com/ and edit the keys. Use the compile function on that site to get the hex file.
+
+![Layout](https://raw.githubusercontent.com/Pimentoso/TouhouPad/master/images/layout.png)
 
 I use QMK toolbox [https://github.com/qmk/qmk_toolbox] for easy flashing. There's a precompiled hex file in the firmware folder.
 
