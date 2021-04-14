@@ -19,18 +19,20 @@ The pad has only 9 keys so we can just make a single row with 9 columns, so ther
 
 If you use the amoebas for the wiring, make sure to bridge the diode pads/holes since they're not used. This is easily done by placing some solder on the SMD diode pads until they are connected (you can also use a small strand of wire or a piece of diode leg)
 
-Default pins used:
+Wiring table:
 
-- Row pin: F4
-- Column pin 0 (left shift): F5
-- Column pin 1 (Z): F6
-- Column pin 2 (X): F7
-- Column pin 3 (left arrow): D7
-- Column pin 4 (down arrow): C6
-- Column pin 5 (right arrow): D4
-- Column pin 6 (up arrow): D0
-- Column pin 7 (esc): B1
-- Column pin 8 (enter): D1
+| matrix pin | firmware pin | pro micro pin |
+| --- | --- | --- |
+| Row 0 | F4 | A3 |
+| Column 0 (left shift) | F5 | A2 |
+| Column 1 (Z key) | F6 | A1 |
+| Column 2 (X key) | F7 | A0 |
+| Column 3 (left arrow) | D7 | 6 |
+| Column 4 (down arrow) | C6 | 5 |
+| Column 5 (right arrow) | D4 | 4 |
+| Column 6 (up arrow) | D0 | 3 |
+| Column 7 (esc key) | B1 | 15 |
+| Column 8 (enter key) | D1 | 2 |
 
 ## Firmware
 
