@@ -2,6 +2,8 @@ Ergonomic gamepad to play Touhou Project games. Left-hand controls shoot/slow/bo
 
 ![Rendering](https://raw.githubusercontent.com/Pimentoso/TouhouPad/master/images/screen.png)
 
+More pictures at Thingiverse -> https://www.thingiverse.com/thing:4088449
+
 ## Materials needed
 
 - 9 cherry MX compatible switches
@@ -17,7 +19,18 @@ The pad has only 9 keys so we can just make a single row with 9 columns, so ther
 
 If you use the amoebas for the wiring, make sure to bridge the diode pads/holes since they're not used. This is easily done by placing some solder on the SMD diode pads until they are connected (you can also use a small strand of wire or a piece of diode leg)
 
-Wiring table:
+## Building instructions
+
+- Print the plate face down. Use 0.2mm layer height with no supports. The first layer has small text on it so print it slowly to ensure bed adhesion.
+- Punch open the 2 screw holes on the plate.
+- Print the case. Again, punch open the screw holes, and push the M3 nuts into the hexagonal slots at the bottom.
+- Insert the switches into the plate and handwire them to the Pro Micro (schematics are below).
+- Slide the Pro Micro into its slot and drop the plate into the case.
+- Screw the plate to the case making sure you aren't squeezing some wires on the screw poles.
+- Flash the firmware (instructions below).
+- Done!
+
+## Wiring table
 
 | matrix pin | firmware pin | pro micro pin |
 | --- | --- | --- |
@@ -32,7 +45,9 @@ Wiring table:
 | Column 7 (esc key) | B1 | 15 |
 | Column 8 (enter key) | D1 | 2 |
 
-Ugly schematics: (note: it's the bottom view of the plate)
+## Schematics
+
+(note: it's the bottom view of the plate)
 
 ![Schematics](https://raw.githubusercontent.com/Pimentoso/TouhouPad/master/images/schematics.png)
 
