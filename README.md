@@ -4,16 +4,14 @@ Ergonomic gamepad to play Touhou Project games. Left-hand controls shoot/slow/bo
 
 ## Materials needed
 
-- 9 mechanical switches
+- 9 cherry MX compatible switches
 - 9 keycaps
-- 12mm M3 screws (2)
-- M3 nuts (2)
-- a 3d printer
-- an Arduino Pro Micro
+- 12mm M3 screws (2x)
+- M3 nuts (2x)
+- an Arduino Pro Micro (5v model)
 - optionally, 9 Amoeba single switch PCBs for a cleaner wiring job
 - soldering iron and wires
-
-Use any mechanical switch you want. I'm using scraps and use a gateron yellow for slow movement, a gateron brown for shooting, and blues for the rest.
+- a 3d printer
 
 The pad has only 9 keys so we can just make a single row with 9 columns, so there's no need for diodes.
 
@@ -33,6 +31,10 @@ Wiring table:
 | Column 6 (up arrow) | D0 | 3 |
 | Column 7 (esc key) | B1 | 15 |
 | Column 8 (enter key) | D1 | 2 |
+
+Ugly schematics: (note: it's the bottom view of the plate)
+
+![Schematics](https://raw.githubusercontent.com/Pimentoso/TouhouPad/master/images/schematics.png)
 
 ## Firmware
 
