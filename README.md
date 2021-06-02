@@ -8,7 +8,7 @@ More pictures at Thingiverse -> https://www.thingiverse.com/thing:4088449
 
 - 9 cherry MX compatible switches
 - 9 keycaps
-- 12mm M3 screws (2x)
+- 12mm M3 countersunk screws (2x) (10mm or 16mm should be fine as well)
 - M3 nuts (2x)
 - an Arduino Pro Micro (5v model)
 - optionally, 9 Amoeba single switch PCBs for a cleaner wiring job
@@ -22,8 +22,7 @@ If you use the amoebas for the wiring, make sure to bridge the diode pads/holes 
 ## Building instructions
 
 - Print the plate face down. Use 0.2mm layer height with no supports. The first layer has small text on it so print it slowly to ensure bed adhesion.
-- Punch open the 2 screw holes on the plate.
-- Print the case. Again, punch open the screw holes, and push the M3 nuts into the hexagonal slots at the bottom.
+- Print the case. Punch open the screw holes, and push the M3 nuts into the hexagonal slots at the bottom.
 - Insert the switches into the plate and handwire them to the Pro Micro (schematics are below).
 - Slide the Pro Micro into its slot and drop the plate into the case.
 - Screw the plate to the case making sure you aren't squeezing some wires on the screw poles.
